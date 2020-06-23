@@ -1,0 +1,11 @@
+{
+     "type": "record",
+     "namespace": "com.example",
+     "name": "Customer",
+     "version": "1",
+     "fields": [
+       { "name": "fullname", "type": "string", "doc": "Full Name" },
+       { "name": "id", "type": "int", "doc": "Id Number" },
+       { "name": "city", "type": "string", "doc": "City details" }
+     ]
+}
